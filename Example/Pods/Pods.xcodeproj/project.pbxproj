@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1443A81F1E3C74EA00EA9CA4 /* DTSLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1443A81E1E3C74EA00EA9CA4 /* DTSLog.swift */; };
 		1C99D76B982687D84C4E857C0ACA2CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		383417742FE6752E97505FB4DA9FBDCB /* Pods-DTSLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04E7F8DD3958B72CE4FEB3D80E39F88 /* Pods-DTSLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3F384FED3961A47C8C782FA2FEC72A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		7325A916EEA77FE763E9985019F08BE5 /* Pods-DTSLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 166E860216B0D15D232747D47DA048AD /* Pods-DTSLog_Tests-dummy.m */; };
 		741F3B29D7D913614FD28B3AA0E413E2 /* DTSLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BCCF0E23C8D5E196EE9A857F5C816 /* DTSLog-dummy.m */; };
 		905FFC5501F8EDEDC5CE2851929EAA43 /* Pods-DTSLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52A9FFE14C483B47F3A29E1E94F5D9D /* Pods-DTSLog_Example-dummy.m */; };
-		95BD7EA07A687C781F8B6DD48C0C5888 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED1FEAFF61D7D3B5B51F26374FA48E /* ReplaceMe.swift */; };
 		A73B5B9A631E3B93CBFC07A1C328B4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		E0CB31619760CA2A37B48AF4EF6E7734 /* Pods-DTSLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91639F9E3E4CB61AE1272B0A66A697E1 /* Pods-DTSLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E3330526230AF4E0AD3695929C585CBB /* DTSLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E721E553FE2348573467BBC8D39835 /* DTSLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,6 +35,7 @@
 		0D9BCCF0E23C8D5E196EE9A857F5C816 /* DTSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTSLog-dummy.m"; sourceTree = "<group>"; };
 		0EB549429E0C27E6F71789C4DAB1B8F4 /* Pods-DTSLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSLog_Example-resources.sh"; sourceTree = "<group>"; };
 		0FCA89EBDA68ABC4D8D8AAB254424F53 /* DTSLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DTSLog.modulemap; sourceTree = "<group>"; };
+		1443A81E1E3C74EA00EA9CA4 /* DTSLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DTSLog.swift; sourceTree = "<group>"; };
 		166E860216B0D15D232747D47DA048AD /* Pods-DTSLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTSLog_Tests-dummy.m"; sourceTree = "<group>"; };
 		24AD46D99D7A5A7846F3BD613C9AE343 /* Pods-DTSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D46AFF43B56A0732906B6767402A185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,7 +62,6 @@
 		E52A9FFE14C483B47F3A29E1E94F5D9D /* Pods-DTSLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTSLog_Example-dummy.m"; sourceTree = "<group>"; };
 		E639ED7531BBF278CE921AA3FF7B4006 /* DTSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTSLog-prefix.pch"; sourceTree = "<group>"; };
 		E8CE1D1304DE5DB9A25A9C4F294EDA04 /* Pods-DTSLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTSLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F8ED1FEAFF61D7D3B5B51F26374FA48E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,7 +185,7 @@
 		C022868375F4F96C4B790605383E308F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F8ED1FEAFF61D7D3B5B51F26374FA48E /* ReplaceMe.swift */,
+				1443A81E1E3C74EA00EA9CA4 /* DTSLog.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -361,8 +361,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1443A81F1E3C74EA00EA9CA4 /* DTSLog.swift in Sources */,
 				741F3B29D7D913614FD28B3AA0E413E2 /* DTSLog-dummy.m in Sources */,
-				95BD7EA07A687C781F8B6DD48C0C5888 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
