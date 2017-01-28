@@ -29,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		04E8F5679F9EED23BE472248 /* Pods_DTSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTSLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1443A8211E3C80EA00EA9CA4 /* DTSLog_Example-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DTSLog_Example-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		4992A03A6BC8137403CD5E24 /* DTSLog.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DTSLog.podspec; path = ../DTSLog.podspec; sourceTree = "<group>"; };
 		54074181D3B7A20CC410E31E /* Pods-DTSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSLog_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSLog_Tests/Pods-DTSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		5FA56EDFC6B1278074169A23 /* Pods-DTSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DTSLog_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DTSLog_Example/Pods-DTSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -106,6 +107,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				1443A8211E3C80EA00EA9CA4 /* DTSLog_Example-Bridging-Header.h */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
@@ -491,11 +493,16 @@
 			baseConfigurationReference = 5FA56EDFC6B1278074169A23 /* Pods-DTSLog_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DTSLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DTSLog_Example-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -505,11 +512,15 @@
 			baseConfigurationReference = E1C226B83D0ABFBAAFF2A118 /* Pods-DTSLog_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = "";
+				GCC_PREFIX_HEADER = "";
 				INFOPLIST_FILE = DTSLog/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "DTSLog_Example-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

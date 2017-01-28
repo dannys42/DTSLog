@@ -24,19 +24,22 @@ public func ELog(_ string: String) {
 
 // MARK: DTSLog class
 open class DTSLog {
-    static var shared = DTSLog()
+    static open var shared = DTSLog()
     open var logAction: (Level, String)->Void = { level, string in
         DTSLog.shared.standardAction(level: level, string: string)
+    }
+    open var stringAction: (String)->Void = { string in
+        print(string)
     }
 
     open func standardAction(level: Level, string: String) {
         let s = self.stringFor(level: level, string: string)
-        print(s)
+        self.stringAction(s)
     }
     
     open func stringFor(level: Level, string: String) -> String {
         let prefix = level.rawValue
-        return "[\(prefix)] string"
+        return "[\(prefix)] \(string)"
     }
     open func stringFor(level: Level, format: String, args: CVarArg...) -> String {
         let string = String(format: format, args)
