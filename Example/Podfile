@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'DTSLog_Example' do
+  pod 'DTSLog', :path => '../'
+
+  target 'DTSLog_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

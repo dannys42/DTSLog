@@ -1,0 +1,715 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C99D76B982687D84C4E857C0ACA2CCC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		383417742FE6752E97505FB4DA9FBDCB /* Pods-DTSLog_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C04E7F8DD3958B72CE4FEB3D80E39F88 /* Pods-DTSLog_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F384FED3961A47C8C782FA2FEC72A16 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		7325A916EEA77FE763E9985019F08BE5 /* Pods-DTSLog_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 166E860216B0D15D232747D47DA048AD /* Pods-DTSLog_Tests-dummy.m */; };
+		741F3B29D7D913614FD28B3AA0E413E2 /* DTSLog-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D9BCCF0E23C8D5E196EE9A857F5C816 /* DTSLog-dummy.m */; };
+		905FFC5501F8EDEDC5CE2851929EAA43 /* Pods-DTSLog_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E52A9FFE14C483B47F3A29E1E94F5D9D /* Pods-DTSLog_Example-dummy.m */; };
+		95BD7EA07A687C781F8B6DD48C0C5888 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8ED1FEAFF61D7D3B5B51F26374FA48E /* ReplaceMe.swift */; };
+		A73B5B9A631E3B93CBFC07A1C328B4BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		E0CB31619760CA2A37B48AF4EF6E7734 /* Pods-DTSLog_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 91639F9E3E4CB61AE1272B0A66A697E1 /* Pods-DTSLog_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3330526230AF4E0AD3695929C585CBB /* DTSLog-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02E721E553FE2348573467BBC8D39835 /* DTSLog-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA261257188516677F86EF301929AB09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 989AA026B07B57F41DB4AC55B97D20B4;
+			remoteInfo = DTSLog;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02E721E553FE2348573467BBC8D39835 /* DTSLog-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTSLog-umbrella.h"; sourceTree = "<group>"; };
+		0309B738B6011389D71ECE9E83F47C01 /* DTSLog.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DTSLog.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D9BCCF0E23C8D5E196EE9A857F5C816 /* DTSLog-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DTSLog-dummy.m"; sourceTree = "<group>"; };
+		0EB549429E0C27E6F71789C4DAB1B8F4 /* Pods-DTSLog_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSLog_Example-resources.sh"; sourceTree = "<group>"; };
+		0FCA89EBDA68ABC4D8D8AAB254424F53 /* DTSLog.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DTSLog.modulemap; sourceTree = "<group>"; };
+		166E860216B0D15D232747D47DA048AD /* Pods-DTSLog_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTSLog_Tests-dummy.m"; sourceTree = "<group>"; };
+		24AD46D99D7A5A7846F3BD613C9AE343 /* Pods-DTSLog_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSLog_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2D46AFF43B56A0732906B6767402A185 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3023004F8C1734C1EA1EB9DF6F65187D /* Pods-DTSLog_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTSLog_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		443175A3E7B6234A56C17563629B8649 /* Pods-DTSLog_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSLog_Example-frameworks.sh"; sourceTree = "<group>"; };
+		4E317EA2D37057AB125487CCD17A149C /* Pods-DTSLog_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DTSLog_Tests.modulemap"; sourceTree = "<group>"; };
+		4E364254B5FF0CF1470FDFE24C8C9071 /* Pods-DTSLog_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSLog_Example.release.xcconfig"; sourceTree = "<group>"; };
+		52FF812D30CABBE0126719776B8878B2 /* Pods_DTSLog_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTSLog_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		55A0A8D72CF4E8A984AB453147691007 /* Pods-DTSLog_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSLog_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		5A7AFF72570DC08730BAB6BC65A357A8 /* Pods-DTSLog_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTSLog_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		66730F7BD8471BB62F85B53DF60E7D5A /* Pods_DTSLog_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DTSLog_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89D776CC3A82D9DA47561841C3DB0386 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B3F9514968AFB16D38CB36916C25764 /* Pods-DTSLog_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-DTSLog_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		90EA52EB7EB7E3426AAC3C0DD34CD246 /* Pods-DTSLog_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-DTSLog_Example.modulemap"; sourceTree = "<group>"; };
+		91639F9E3E4CB61AE1272B0A66A697E1 /* Pods-DTSLog_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTSLog_Tests-umbrella.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A45094A76CB50F87560910E41D9526F4 /* DTSLog.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DTSLog.xcconfig; sourceTree = "<group>"; };
+		A7BCFF46027C90107DDDB04211664E0F /* Pods-DTSLog_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSLog_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		AF80B5B9B2023F5ADF186645169AB269 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C04E7F8DD3958B72CE4FEB3D80E39F88 /* Pods-DTSLog_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-DTSLog_Example-umbrella.h"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		DE378F47469797870E29610DD0477400 /* Pods-DTSLog_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-DTSLog_Tests-resources.sh"; sourceTree = "<group>"; };
+		E1AA395A174C80EEB012C8BEB8493CDA /* Pods-DTSLog_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-DTSLog_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E52A9FFE14C483B47F3A29E1E94F5D9D /* Pods-DTSLog_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-DTSLog_Example-dummy.m"; sourceTree = "<group>"; };
+		E639ED7531BBF278CE921AA3FF7B4006 /* DTSLog-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DTSLog-prefix.pch"; sourceTree = "<group>"; };
+		E8CE1D1304DE5DB9A25A9C4F294EDA04 /* Pods-DTSLog_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-DTSLog_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F8ED1FEAFF61D7D3B5B51F26374FA48E /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DD638157A1331C98F3FB973E1D54869 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C99D76B982687D84C4E857C0ACA2CCC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7680F28F8C5D1CE9ACBE0D80BC1C7668 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F384FED3961A47C8C782FA2FEC72A16 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1F2F9E66D6971343293AB01CB165E8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A73B5B9A631E3B93CBFC07A1C328B4BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		065D381FBDE1309F32DECC491B4BFF6A /* DTSLog */ = {
+			isa = PBXGroup;
+			children = (
+				7DCDEBB242629B4EE5A06D09E65BD4D1 /* DTSLog */,
+				E7D5ED27CC230C762E98C715BB37D0CD /* Support Files */,
+			);
+			name = DTSLog;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		10B12143D984BE6015067C4DB3CA1AFF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0309B738B6011389D71ECE9E83F47C01 /* DTSLog.framework */,
+				66730F7BD8471BB62F85B53DF60E7D5A /* Pods_DTSLog_Example.framework */,
+				52FF812D30CABBE0126719776B8878B2 /* Pods_DTSLog_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DFF8D2ED233DDA8A0F5B995C3DF497C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D875032E1D1B31951F1DA6A029B909FA /* Pods-DTSLog_Example */,
+				BC05E99F1E4F7A78EBB61ADB5D624215 /* Pods-DTSLog_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				B72D397085D5F7376C0A6DDA0FF0C2E5 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				10B12143D984BE6015067C4DB3CA1AFF /* Products */,
+				2DFF8D2ED233DDA8A0F5B995C3DF497C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7DCDEBB242629B4EE5A06D09E65BD4D1 /* DTSLog */ = {
+			isa = PBXGroup;
+			children = (
+				C022868375F4F96C4B790605383E308F /* Classes */,
+			);
+			path = DTSLog;
+			sourceTree = "<group>";
+		};
+		B72D397085D5F7376C0A6DDA0FF0C2E5 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				065D381FBDE1309F32DECC491B4BFF6A /* DTSLog */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC05E99F1E4F7A78EBB61ADB5D624215 /* Pods-DTSLog_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				89D776CC3A82D9DA47561841C3DB0386 /* Info.plist */,
+				4E317EA2D37057AB125487CCD17A149C /* Pods-DTSLog_Tests.modulemap */,
+				5A7AFF72570DC08730BAB6BC65A357A8 /* Pods-DTSLog_Tests-acknowledgements.markdown */,
+				3023004F8C1734C1EA1EB9DF6F65187D /* Pods-DTSLog_Tests-acknowledgements.plist */,
+				166E860216B0D15D232747D47DA048AD /* Pods-DTSLog_Tests-dummy.m */,
+				A7BCFF46027C90107DDDB04211664E0F /* Pods-DTSLog_Tests-frameworks.sh */,
+				DE378F47469797870E29610DD0477400 /* Pods-DTSLog_Tests-resources.sh */,
+				91639F9E3E4CB61AE1272B0A66A697E1 /* Pods-DTSLog_Tests-umbrella.h */,
+				E1AA395A174C80EEB012C8BEB8493CDA /* Pods-DTSLog_Tests.debug.xcconfig */,
+				55A0A8D72CF4E8A984AB453147691007 /* Pods-DTSLog_Tests.release.xcconfig */,
+			);
+			name = "Pods-DTSLog_Tests";
+			path = "Target Support Files/Pods-DTSLog_Tests";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C022868375F4F96C4B790605383E308F /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				F8ED1FEAFF61D7D3B5B51F26374FA48E /* ReplaceMe.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D875032E1D1B31951F1DA6A029B909FA /* Pods-DTSLog_Example */ = {
+			isa = PBXGroup;
+			children = (
+				AF80B5B9B2023F5ADF186645169AB269 /* Info.plist */,
+				90EA52EB7EB7E3426AAC3C0DD34CD246 /* Pods-DTSLog_Example.modulemap */,
+				E8CE1D1304DE5DB9A25A9C4F294EDA04 /* Pods-DTSLog_Example-acknowledgements.markdown */,
+				8B3F9514968AFB16D38CB36916C25764 /* Pods-DTSLog_Example-acknowledgements.plist */,
+				E52A9FFE14C483B47F3A29E1E94F5D9D /* Pods-DTSLog_Example-dummy.m */,
+				443175A3E7B6234A56C17563629B8649 /* Pods-DTSLog_Example-frameworks.sh */,
+				0EB549429E0C27E6F71789C4DAB1B8F4 /* Pods-DTSLog_Example-resources.sh */,
+				C04E7F8DD3958B72CE4FEB3D80E39F88 /* Pods-DTSLog_Example-umbrella.h */,
+				24AD46D99D7A5A7846F3BD613C9AE343 /* Pods-DTSLog_Example.debug.xcconfig */,
+				4E364254B5FF0CF1470FDFE24C8C9071 /* Pods-DTSLog_Example.release.xcconfig */,
+			);
+			name = "Pods-DTSLog_Example";
+			path = "Target Support Files/Pods-DTSLog_Example";
+			sourceTree = "<group>";
+		};
+		E7D5ED27CC230C762E98C715BB37D0CD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0FCA89EBDA68ABC4D8D8AAB254424F53 /* DTSLog.modulemap */,
+				A45094A76CB50F87560910E41D9526F4 /* DTSLog.xcconfig */,
+				0D9BCCF0E23C8D5E196EE9A857F5C816 /* DTSLog-dummy.m */,
+				E639ED7531BBF278CE921AA3FF7B4006 /* DTSLog-prefix.pch */,
+				02E721E553FE2348573467BBC8D39835 /* DTSLog-umbrella.h */,
+				2D46AFF43B56A0732906B6767402A185 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/DTSLog";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D0E6DBFDA1F5CA7E0771AECE45BF130 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				383417742FE6752E97505FB4DA9FBDCB /* Pods-DTSLog_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BC26128BA14918EFD64BA41E5D142F7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3330526230AF4E0AD3695929C585CBB /* DTSLog-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E33AAF7C9FCD8E83E8788A2D12E7134D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0CB31619760CA2A37B48AF4EF6E7734 /* Pods-DTSLog_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		27E1D9B91E42EB40D3AF7893E872E5A4 /* Pods-DTSLog_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E45EA463AE0A1B80A87C6EDC53BA5221 /* Build configuration list for PBXNativeTarget "Pods-DTSLog_Tests" */;
+			buildPhases = (
+				4E9E5BE549D477990F01CA9FFDE088A3 /* Sources */,
+				4DD638157A1331C98F3FB973E1D54869 /* Frameworks */,
+				E33AAF7C9FCD8E83E8788A2D12E7134D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-DTSLog_Tests";
+			productName = "Pods-DTSLog_Tests";
+			productReference = 52FF812D30CABBE0126719776B8878B2 /* Pods_DTSLog_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		989AA026B07B57F41DB4AC55B97D20B4 /* DTSLog */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D2A7C9D45949E15CA60163608D7CF2D /* Build configuration list for PBXNativeTarget "DTSLog" */;
+			buildPhases = (
+				868CC967CAD3CEDF9F9624B849C26BC2 /* Sources */,
+				7680F28F8C5D1CE9ACBE0D80BC1C7668 /* Frameworks */,
+				6BC26128BA14918EFD64BA41E5D142F7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DTSLog;
+			productName = DTSLog;
+			productReference = 0309B738B6011389D71ECE9E83F47C01 /* DTSLog.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9AEADD38DE2FC0D3CCCC7320D0B90E7F /* Pods-DTSLog_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD74B3C71D4FFDA2360654B62E7D0955 /* Build configuration list for PBXNativeTarget "Pods-DTSLog_Example" */;
+			buildPhases = (
+				76081826D70D1B8CF862AC7538506BBC /* Sources */,
+				F1F2F9E66D6971343293AB01CB165E8D /* Frameworks */,
+				1D0E6DBFDA1F5CA7E0771AECE45BF130 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B47637820E34D0CB482860966086543C /* PBXTargetDependency */,
+			);
+			name = "Pods-DTSLog_Example";
+			productName = "Pods-DTSLog_Example";
+			productReference = 66730F7BD8471BB62F85B53DF60E7D5A /* Pods_DTSLog_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					989AA026B07B57F41DB4AC55B97D20B4 = {
+						LastSwiftMigration = 0820;
+					};
+					9AEADD38DE2FC0D3CCCC7320D0B90E7F = {
+						LastSwiftMigration = 0820;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 10B12143D984BE6015067C4DB3CA1AFF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				989AA026B07B57F41DB4AC55B97D20B4 /* DTSLog */,
+				9AEADD38DE2FC0D3CCCC7320D0B90E7F /* Pods-DTSLog_Example */,
+				27E1D9B91E42EB40D3AF7893E872E5A4 /* Pods-DTSLog_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E9E5BE549D477990F01CA9FFDE088A3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7325A916EEA77FE763E9985019F08BE5 /* Pods-DTSLog_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76081826D70D1B8CF862AC7538506BBC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				905FFC5501F8EDEDC5CE2851929EAA43 /* Pods-DTSLog_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		868CC967CAD3CEDF9F9624B849C26BC2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				741F3B29D7D913614FD28B3AA0E413E2 /* DTSLog-dummy.m in Sources */,
+				95BD7EA07A687C781F8B6DD48C0C5888 /* ReplaceMe.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B47637820E34D0CB482860966086543C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DTSLog;
+			target = 989AA026B07B57F41DB4AC55B97D20B4 /* DTSLog */;
+			targetProxy = EA261257188516677F86EF301929AB09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		152FEB2398A2D97CC775CF5EEADF95F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45094A76CB50F87560910E41D9526F4 /* DTSLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTSLog/DTSLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTSLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTSLog/DTSLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DTSLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		18B661766D95FCA4D843C7883350BA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55A0A8D72CF4E8A984AB453147691007 /* Pods-DTSLog_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSLog_Tests/Pods-DTSLog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTSLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52CBD5AC0CA6E272613AA6CC54087E73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45094A76CB50F87560910E41D9526F4 /* DTSLog.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DTSLog/DTSLog-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DTSLog/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DTSLog/DTSLog.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DTSLog;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		78BB4DF4EE0293B662BA21476C4AE0D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E364254B5FF0CF1470FDFE24C8C9071 /* Pods-DTSLog_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSLog_Example/Pods-DTSLog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTSLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AB504BD36E69DCDF62B8A5F0B1F5CAF6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1AA395A174C80EEB012C8BEB8493CDA /* Pods-DTSLog_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSLog_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSLog_Tests/Pods-DTSLog_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTSLog_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FE7987487529B8080E4F6EA52D069C74 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24AD46D99D7A5A7846F3BD613C9AE343 /* Pods-DTSLog_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-DTSLog_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-DTSLog_Example/Pods-DTSLog_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_DTSLog_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D2A7C9D45949E15CA60163608D7CF2D /* Build configuration list for PBXNativeTarget "DTSLog" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				152FEB2398A2D97CC775CF5EEADF95F0 /* Debug */,
+				52CBD5AC0CA6E272613AA6CC54087E73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD74B3C71D4FFDA2360654B62E7D0955 /* Build configuration list for PBXNativeTarget "Pods-DTSLog_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE7987487529B8080E4F6EA52D069C74 /* Debug */,
+				78BB4DF4EE0293B662BA21476C4AE0D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E45EA463AE0A1B80A87C6EDC53BA5221 /* Build configuration list for PBXNativeTarget "Pods-DTSLog_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB504BD36E69DCDF62B8A5F0B1F5CAF6 /* Debug */,
+				18B661766D95FCA4D843C7883350BA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
