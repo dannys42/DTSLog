@@ -1,6 +1,6 @@
 # DTSLog
 
-[![CI Status](http://img.shields.io/travis/Danny Sung/DTSLog.svg?style=flat)](https://travis-ci.org/Danny Sung/DTSLog)
+[![CI Status](http://img.shields.io/travis/dannys42/DTSLog.svg?style=flat)](https://travis-ci.org/dannys42/DTSLog)
 [![Version](https://img.shields.io/cocoapods/v/DTSLog.svg?style=flat)](http://cocoapods.org/pods/DTSLog)
 [![License](https://img.shields.io/cocoapods/l/DTSLog.svg?style=flat)](http://cocoapods.org/pods/DTSLog)
 [![Platform](https://img.shields.io/cocoapods/p/DTSLog.svg?style=flat)](http://cocoapods.org/pods/DTSLog)
